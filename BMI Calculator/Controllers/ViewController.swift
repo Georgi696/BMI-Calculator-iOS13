@@ -35,8 +35,10 @@ class ViewController: UIViewController {
     @IBAction func calculatePressed(_ sender: UIButton) {
         let height = sliderHeight.value
         let weight = sliderWeight.value
-        var bmi = weight / pow(height,2)
+        let bmi = weight / pow(height,2)
         print(bmi)
+        
+        
     }
     
     
